@@ -23,7 +23,6 @@ body{
     clear: both;
 }
 [class*="col-"]{
-    float: right;
     padding-left: 12px;
     padding-right: 12px;
     box-sizing: border-box;
