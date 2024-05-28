@@ -28,14 +28,6 @@ body{
     padding-right: 12px;
     box-sizing: border-box;
 }
-.item{
-    max-width: 360px;
-    margin: 10px auto;
-    background-color: lightblue;
-    font-size: 72px;
-    line-height: 3em;
-    text-align: center;
-}
 .col-xsm-12{
     width:100%;
 }
