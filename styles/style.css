@@ -31,3 +31,14 @@ body{
     color: #f6ebe7;
 
 }
+#task-adder button{
+    display: block;
+    height: 40px;
+    width: 40px;
+    margin: 2px auto;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color:#117232;
+    color: #f6ebe7;
+    border: none;
+}
