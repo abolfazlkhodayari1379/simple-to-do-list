@@ -42,3 +42,33 @@ body{
     color: #f6ebe7;
     border: none;
 }
+#modal{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    bottom: 40%;
+    right: 20px;
+    left: 20px;
+    background-color: #fdfefe;
+    border: 4px solid #dfe3da;
+
+}
+#modal input{
+    height: 35px;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid #3065608c;
+    border-radius: 5px;
+    background-color: #9fc0bc;
+    color: whitesmoke;
+}
+#modal button{
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: #306560;
+}
