@@ -44,17 +44,15 @@ body{
 }
 #modal{
     padding: 10px;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     position: absolute;
     top: 10%;
-    bottom: 40%;
     right: 20px;
     left: 20px;
     background-color: #fdfefe;
     border: 4px solid #dfe3da;
-
 }
 #modal input{
     height: 35px;
@@ -71,4 +69,38 @@ body{
     border: none;
     border-radius: 50%;
     background-color: #306560;
+}
+#modal .row{
+    padding: 5px;
+    font-size: 0.5em;
+    font-style: italic;
+    text-align: justify;
+}
+@media screen and (min-width:750px) {
+    #modal .row{
+        font-size: 0.7em;
+    }
+}
+@media screen and (min-width:968px) {
+    .Wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    #task-continer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .item{
+        min-width: 70px;
+        margin: 10px 5px;
+        flex-grow: 1;
+    }
+    #modal{
+        left: 17.8%;
+        right: 17.8%;
+    }
+    #modal .row{
+        font-size: 0.9em;
+    }
 }
