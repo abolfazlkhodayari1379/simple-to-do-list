@@ -4,9 +4,6 @@
     list-style-type: none;
     text-decoration: none;
 }
-body{
-    direction: rtl;
-}
 .wrapper{
     display: block;
     margin: 0 auto;
