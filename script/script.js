@@ -7,3 +7,9 @@ let userTask = $.getElementsByTagName('input')
 let adderBtn = $.getElementById('Add')
 let closeElem = $.getElementById('close')
 let error = $.getElementById('error')
+// functions
+function showModal(){
+    modalElem.style.display = 'flex'
+    userTask[0].focus()
+}
+plusBtn.addEventListener('click', showModal)
