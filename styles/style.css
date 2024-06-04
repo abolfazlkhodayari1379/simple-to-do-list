@@ -91,6 +91,15 @@ body{
     font-style: italic;
     text-align: justify;
 }
+#error{
+    padding: 7px;
+    position: absolute;
+    top: 20px;
+    border-radius: 5px;
+    color: #def0f0;
+    background: #fa3838d8;
+    display: none;
+}
 @media screen and (min-width:750px) {
     #modal .row{
         font-size: 0.7em;
