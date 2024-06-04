@@ -38,6 +38,15 @@ function addedTask(event){
         })
     }
 }
+function concealer (event){
+    if(modalElem.style.display = 'flex' && event.keyCode == 27 || event.target == closeElem){
+        modalElem.style.display = 'none'
+        userTask[0].value = ''
+        }
+}
+//events
 plusBtn.addEventListener('click', showModal)
 userTask[0].addEventListener('keyup', addedTask)
 adderBtn.addEventListener('click', addedTask)
+closeElem.addEventListener('click', concealer)
+modalElem.addEventListener('keydown', concealer)
