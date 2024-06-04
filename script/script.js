@@ -32,6 +32,10 @@ function addedTask(event){
 
         newTaskBox.append(newItem)
         continer.append(newTaskBox)
+
+        newItem.addEventListener('click', function(event){
+            event.target.parentElement.remove()
+        })
     }
 }
 plusBtn.addEventListener('click', showModal)
